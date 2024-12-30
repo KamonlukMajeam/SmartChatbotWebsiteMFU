@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    height: 100vh;
+    background-color: #a00000; /* Backup red background if image fails */
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.left-section {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image:url(Picture/MFUview.jpg) ;
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+.right-section {
+    flex: 0.4;
+    background-color: white;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-shadow: -5px 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.right-section h1 {
+    margin: 0;
+    font-size: 1.8rem;
+    color: black;
+}
+
+.right-section p {
+    color: gray;
+    margin-top: 10px;
+}
+
+.login-button {
+    margin-top: 20px;
+    background-color: #a00000; /* Red color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background-color: #870000; /* Slightly darker red */
+}
+
+.circle {
+    width: 60px;
+    height: 60px;
+    background-color: orange;
+    border-radius: 50%;
+    margin-top: 30px;
+}
