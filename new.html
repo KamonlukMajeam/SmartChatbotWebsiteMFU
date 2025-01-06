@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="th">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="main.css">
-  <title>Chatbot</title>
+    <link rel="stylesheet" href="main.css">
+    <title>Chatbot</title>
 </head>
+
 <body>
     <div class="chat-container">
         <div class="sidebar">
@@ -16,33 +18,31 @@
         </div>
         <div class="chat-area">
             <div id="iframe-container">
-                <iframe
-                  allow="microphone;"
-                  width="350"
-                  height="430"
-                  src="https://console.dialogflow.com/api-client/demo/embedded/ec2fa773-aaf9-4963-82c3-4d00dc09c9a9">
+                <iframe allow="microphone;" width="350" height="430"
+                    src="https://console.dialogflow.com/api-client/demo/embedded/ec2fa773-aaf9-4963-82c3-4d00dc09c9a9">
                 </iframe>
-              </div>
-              <script>
+            </div>
+            <script>
                 document.getElementById('logoutBtn').addEventListener('click', function () {
                     // เปลี่ยนหน้าไปยังหน้า Login
-                    window.location.href = 'login.html'; 
+                    window.location.href = 'login.html';
                 });
                 document.getElementById('newBtn').addEventListener('click', function () {
                     // เปลี่ยนหน้าไปยังหน้า Login
-                    window.location.href = 'new.html'; 
+                    window.location.href = 'new.html';
                 });
                 document.getElementById('helpBtn').addEventListener('click', function () {
                     // เปลี่ยนหน้าไปยังหน้า Login
-                    window.location.href = 'help.html'; 
+                    window.location.href = 'help.html';
                 });
             </script>
-            
-      </body>
-      
-      </html>
-            
-        </div>
-    </div>
+
 </body>
+
+</html>
+
+</div>
+</div>
+</body>
+
 </html>

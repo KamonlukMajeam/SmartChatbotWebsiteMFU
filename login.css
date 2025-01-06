@@ -62,9 +62,14 @@ body {
 }
 
 .circle {
-    width: 60px;
-    height: 60px;
-    background-color: orange;
-    border-radius: 50%;
+    width: 300px; /* กำหนดความกว้าง */
+    height: 400px; /* กำหนดความสูง */
+    background-image: url('./Picture/jm.jpg'); /* พาธของรูปภาพ */
+    background-size: cover; /* ให้รูปครอบคลุมพื้นที่ */
+    background-position: center; /* จัดให้อยู่กึ่งกลาง */
+    background-repeat: no-repeat; /* ไม่ให้รูปซ้ำ */
     margin-top: 30px;
+    
 }
+
+
