@@ -8,7 +8,7 @@ const port = 8080;
 
 const server = http.createServer((req, res) => {
     // ตรวจสอบ path ของ request
-    let filePath = path.join(__dirname, req.url === '/' ? 'main.html' : req.url);
+    let filePath = path.join(__dirname, req.url === '/' ? 'login.html' : req.url);
     const extname = path.extname(filePath);
 
     // ตั้งค่า MIME types
