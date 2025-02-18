@@ -4,7 +4,7 @@ const fs = require('fs');
 
 // ตั้งค่า IP และ Port
 const hostname = 'localhost'; // ใช้ 0.0.0.0 ถ้าต้องการให้เข้าถึงจากทุกที่
-const port = 8080;
+const port = 3000;
 
 const server = http.createServer((req, res) => {
     // ตรวจสอบ path ของ request
